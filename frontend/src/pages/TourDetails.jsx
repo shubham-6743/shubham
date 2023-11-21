@@ -22,7 +22,7 @@ const TourDetails = () => {
    // fetch data from database
    const { data: tour, loading, error } = useFetch(`${BASE_URL}/tours/${id}`)
 
-   const { photo, title, desc, price, reviews, city, address, distance, maxGroupSize } = tour
+   const { photo, title, desc, duration, time,place,weather, price, reviews, city, address, distance, maxGroupSize } = tour
 
    const { totalRating, avgRating } = calculateAvgRating(reviews)
 
@@ -94,6 +94,14 @@ const TourDetails = () => {
                               <span><i class='ri-map-pin-time-line'></i> {distance} k/m</span>
                               <span><i class='ri-group-line'></i> {maxGroupSize} people</span>
                            </div>
+                           <h5>Famous Places</h5>
+                           <p>{place}</p>
+                           <h5>Weather</h5>
+                           <p>{weather}</p>
+                           <h5>Duration</h5>
+                           <p>{duration}</p>
+                           <h5>Best Time</h5>
+                           <p>{time}</p>
                            <h5>Description</h5>
                            <p>{desc}</p>
                            <Row>

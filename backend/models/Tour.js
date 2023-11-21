@@ -27,6 +27,22 @@ const tourSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    weather: {
+      type: String,
+      required: true,
+    },
+    duration: {
+      type: String,
+      required: true,
+    },
+    time: {
+      type: String,
+      required: true,
+    },
+    place: {
+      type: String,
+      required: true,
+    },
     price: {
       type: Number,
       required: true,
@@ -35,7 +51,6 @@ const tourSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-
     reviews: [
       {
         type: mongoose.Types.ObjectId,

@@ -25,6 +25,7 @@ const tours = [
     price: 79,
     maxGroupSize: 10,
     desc: "World's oldest living city, Varanasi - also known as Kashi (City of Life) and Benaras",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Mukesh Kumar",
@@ -48,6 +49,7 @@ const tours = [
     price: 96,
     maxGroupSize: 8,
     desc: "Manali is a magical hill station at the northern end of Kullu valley in Himachal Pradesh.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Shubham",
@@ -67,6 +69,7 @@ const tours = [
     price: 76,
     maxGroupSize: 8,
     desc: "The Taj Mahal is one of the seven wonders of the world.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Jeewant",
@@ -86,6 +89,7 @@ const tours = [
     price: 85,
     maxGroupSize: 8,
     desc: "Coorg is a popular coffee producing hill station.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "MNQ",
@@ -105,6 +109,7 @@ const tours = [
     price: 75,
     maxGroupSize: 8,
     desc: "Blue seas, virgin islands and colonial past with sandy beaches.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Bhupendra Jogi",
@@ -124,6 +129,7 @@ const tours = [
     price: 88,
     maxGroupSize: 8,
     desc: "Lakes and Palaces of Udaipur are must to Visit and offers experience luxury in India.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Sallu Bhai",
@@ -143,6 +149,7 @@ const tours = [
     price: 79,
     maxGroupSize: 8,
     desc: "The town during its bright sunny days offers spectacular views of Mt. Kanchenjunga",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "ZAA",
@@ -162,6 +169,7 @@ const tours = [
     price: 99,
     maxGroupSize: 8,
     desc: "Famous for the tea estates, greenery, winding roads, blanket of mist, and viewpoints.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "SMZ",
@@ -181,6 +189,7 @@ const tours = [
     price: 99,
     maxGroupSize: 8,
     desc: "Ladakh is a union territory in the Kashmir region of India.It is world's coldest desert.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Shubham",
@@ -200,6 +209,7 @@ const tours = [
     price: 99,
     maxGroupSize: 8,
     desc: "Goa is India's smallest state and known for its eclectic seafood, world-heritage listed architecture.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
     ],
     avgRating: 4.5,
@@ -215,6 +225,7 @@ const tours = [
     price: 75,
     maxGroupSize: 8,
     desc: "A beautiful city encircled by pine trees and  home to numerous waterfalls.  Shillong is also famous as the music capital of India",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Mukesh Chaudhary",
@@ -234,6 +245,7 @@ const tours = [
     price: 79,
     maxGroupSize: 10,
     desc: "Shimla is the capital of Himachal Pradesh and a popular hill-station among Indian families and honeymooners.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Mukesh Kumar",
@@ -257,6 +269,7 @@ const tours = [
     price: 79,
     maxGroupSize: 10,
     desc: "The smallest union territory of India has only 36 islands having a total area of 32 sq. kilometres.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Mukesh Kumar",
@@ -276,6 +289,7 @@ const tours = [
     price: 79,
     maxGroupSize: 10,
     desc: "Red Fort, Jama Masjid, Humayun's Tomb,  Akshardham Temple, the Lotus Temple, the ISKON Temple and Purana Qila are some famous Places of NCR",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Mukesh Chaudhary",
@@ -295,6 +309,7 @@ const tours = [
     price: 79,
     maxGroupSize: 10,
     desc: "Home of the glorious Golden Temple, the iconic city of Amritsar, portrays the heroic character of Punjab.  This place is also famous for its Jallianwala Bagh massacre and its proximity to Wagah Border.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
          name: "Urjit",
@@ -314,6 +329,7 @@ const tours = [
     price: 79,
     maxGroupSize: 10,
     desc: "With a backdrop of the Shivalik range of Himalayas and doon valley, Mussoorie, also known as Queen of The Hills, stands at an altitude of 7000 feet above sea level.",
+    ess:"Weather = 15 - 29°C",
     reviews: [
       {
         name: "Mukesh Kumar",
